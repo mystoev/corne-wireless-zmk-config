@@ -34,7 +34,7 @@
 //                    | TRNS| TRNS| TRNS|   | TRNS| FN3 | TRNS|
                         display-name = "Lower";
                         bindings = <
-   &none  &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTR  &kp LPAR  &kp RPAR &kp MINUS
+   &none  &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR &kp MINUS
    &none  &none    &none    &none    &none    &none       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none    &kp EQUAL
    &none  &none    &kp LPAR &kp LBKT &kp LBRC &none       &none     &kp RBRC  &kp RBKT  &kp RPAR  &none    &kp BSLH
                             &trans   &trans   &trans      &trans    &mo 3     &trans
