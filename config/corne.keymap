@@ -33,7 +33,7 @@
                         display-name = "Base";
                         bindings = <
    &kp ESC         &kp Q &kp W       &kp E       &kp R        &kp T           &kp Y &kp U        &kp I       &kp O   &kp P    &kp CAPS
-   &kp GRAVE       &kp A &mtp LSHFT S &mtp LCTRL D &mtp LGUI F   &kp G           &kp H &mtp RGUI J   &mtp RCTRL K &mtp RSHFT L &kp SEMI &kp SQT
+   &kp GRAVE       &kp A &mt LSHFT S { flavor = "tap-preferred"; } &mt LCTRL D { flavor = "tap-preferred"; } &mt LGUI F { flavor = "tap-preferred"; }   &kp G           &kp H &mt RGUI J { flavor = "tap-preferred"; } &mt RCTRL K { flavor = "tap-preferred"; } &mt RSHFT L { flavor = "tap-preferred"; } &kp SEMI &kp SQT
    &kp LALT        &kp Z &kp X       &kp C       &kp V        &kp B           &kp N &kp M        &kp COMMA   &kp DOT &kp FSLH &lng1_macro
                                       &kp BSPC    &mo 1        &kp TAB         &kp RET &mo 2      &kp SPACE
                         >;
