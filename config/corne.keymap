@@ -10,12 +10,17 @@
 
 / {
 
-        behavior {
-                mt: mod_tap {
-                        compatible = "zmk,behavior-hold-tap"
-                        flavor = tap-preferred
-                };
+    behaviors {
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
         };
+    };
+
     macros {
         lng1_macro: lng1_macro {
             compatible = "zmk,behavior-macro";
